@@ -10386,7 +10386,7 @@ const FFOU: {[name: string]: SpeciesData} = {
   },  
 }
 
-export const SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
+export const SPECIES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV, FFOU];
 
 export class Species implements I.Species {
   private readonly gen: I.GenerationNum;
